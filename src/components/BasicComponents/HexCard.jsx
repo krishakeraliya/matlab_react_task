@@ -3,7 +3,7 @@ import React from "react";
 
 function HexCard({ tag, title, desc }) {
   return (
-    <div className="hex-card">
+    <div className="hex-card" dir="rtl">
       {/* Tag */}
       <span className="hex-tag">{tag}</span>
 
@@ -13,7 +13,8 @@ function HexCard({ tag, title, desc }) {
 
       {/* CTA */}
       <button className="hex-btn">
-        התחילו עכשיו <span>←</span>
+        <span>←</span>
+        התחילו עכשיו
       </button>
     </div>
   );

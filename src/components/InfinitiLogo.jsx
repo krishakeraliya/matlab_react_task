@@ -4,19 +4,19 @@ import { LOGOS } from "../constant/infinitiLogo";
 
 function InfinitiLogo() {
   return (
-    <section className="w-full py-12 bg-white overflow-hidden">
-      <div className="relative h-20">
+    <section className="w-full py-16 bg-white overflow-hidden border-y border-gray-100">
+      <div className="relative h-24">
         <LogoLoop
           logos={LOGOS}
-          speed={50}
+          speed={40}
           direction="left"
-          logoHeight={40}
-          gap={20}
-          hoverSpeed={10}
+          logoHeight={60}
+          gap={80}
+          hoverSpeed={5}
           scaleOnHover
           fadeOut
           fadeOutColor="#ffffff"
-          ariaLabel="Trusted partners logos"
+          ariaLabel="Partner logos"
         />
       </div>
     </section>

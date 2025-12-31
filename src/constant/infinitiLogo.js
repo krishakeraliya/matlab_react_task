@@ -11,37 +11,37 @@ import {
 export const LOGOS = [
   {
     src: Logo1,
-    alt: "Trusted Partner",
+    alt: "Partner Logo 1",
     href: "#",
   },
   {
     src: Logo2,
-    alt: "Global Brand",
+    alt: "Partner Logo 2",
     href: "#",
   },
   {
     src: Logo3,
-    alt: "Secure Payments",
+    alt: "Partner Logo 3",
     href: "#",
   },
   {
     src: Logo4,
-    alt: "Fast Service",
+    alt: "Partner Logo 4",
     href: "#",
   },
   {
     src: Logo5,
-    alt: "Verified Company",
+    alt: "Partner Logo 5",
     href: "#",
   },
   {
     src: Logo6,
-    alt: "Premium Quality",
+    alt: "Partner Logo 6",
     href: "#",
   },
   {
     src: Logo7,
-    alt: "Customer Choice",
+    alt: "Partner Logo 7",
     href: "#",
   },
 ];
